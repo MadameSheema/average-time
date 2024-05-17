@@ -34,7 +34,6 @@ export class Issue {
         }
 
         console.log(issues);
-        console.log(issues.length);
 
         let totalTimeToClose = 0;
         let issueCount = 0;
