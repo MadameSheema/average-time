@@ -50,7 +50,6 @@ export const calculateAverageTimeToClose = async (owner: string, repo: string, t
     const issues = openIssues.concat(closedIssues);
 
     console.log(issues);
-    console.log(issues.length);
 
     let totalTimeToClose = 0;
     let issueCount = 0;
